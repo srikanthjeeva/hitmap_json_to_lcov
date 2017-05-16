@@ -1,0 +1,27 @@
+{
+  "name": "hitmap_json_to_lcov",
+  "version": "1.0.0",
+  "description": "Module for converting JSON to LCOV (Infofile) ",
+  "main": "hitmap_json_to_lcov.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srikanthjeeva/hitmap_json_to_lcov"
+  },
+  "keywords": [
+    "json to lcov",
+    "lcov"
+  ],
+  "author": "Srikanth Jeevanandan <sri.jjhero@gmail.com> (https://www.srikanthjeeva.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srikanthjeeva/hitmap_json_to_lcov/issues"
+  },
+  "homepage": "https://github.com/srikanthjeeva/hitmap_json_to_lcov",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
