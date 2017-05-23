@@ -38,7 +38,7 @@ module.exports = function (hitmaps) {
         }
         records.push('LF:' + line_data.found);
         records.push('LH:' + line_data.hit);
+        records.push('end_of_record');
     }
-    if (records.length > 0) records.push('end_of_record');
     return records.join('\n');
 };
