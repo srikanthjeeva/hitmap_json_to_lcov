@@ -83,7 +83,12 @@ A small library that converts JSON to LCOV. I have used [lcov-parse](https://git
 
 ## Tests
 
-  `npm test`
+  `npm install && npm test`
+
+
+## Example
+
+https://runkit.com/592396fca8a34b00133b22d3/592396fca8a34b00133b22d4
 
 ## To report bugs, changes, modifications
 
